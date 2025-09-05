@@ -1,0 +1,8 @@
+baseURL = "https://ddavejjackson.gitlab.io/custom-startpage/"
+languageCode = 'en-us'
+title = 'DdaveJjackson'
+
+[Params]
+    [Params.author]
+        name = 'VforVendetta'
+        homepage = 'insertlinkhere'

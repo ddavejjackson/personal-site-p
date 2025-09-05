@@ -1,0 +1,17 @@
+// 1. Override Bootstrap's default variables with Catppuccin Macchiato colors
+$primary: #7dcef3;
+$secondary: #a7b2df;
+$success: #a1f386;
+$info: #6bd0ff;
+$warning: #fabe46;
+$danger: #ff5d75;
+$dark: #24273a;
+$light: #d3daf3;
+
+// 2. Adjust key theme colors and background/body colors
+$body-bg: #2d3149;
+$body-color: #cad3f5;
+$link-color: $primary;
+
+// 3. Import Bootstrap's core files to apply the new colors
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";

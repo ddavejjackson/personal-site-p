@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Google",
+        "url": "https://google.com",
+        "icon": "fab fa-google"
+    },
+    {
+        "name": "ArchWiki",
+        "url": "https://wiki.archlinux.org/",
+        "icon": "fab fa-linux"
+    },
+    {
+        "name": "Gitlab",
+        "url": "https://gitlab.com/",
+        "icon": "fab fa-gitlab"
+    },
+    {
+        "name": "My Blog",
+        "url": "https://ddavejjackson.gitlab.io",
+        "icon": "fas fa-book"
+    },
+    {
+        "name": "Youtube Linux Related",
+        "url": "insert yt link here",
+        "icon": "fab fa-youtube"
+    },
+    {
+        "name": "Free Media Heck Yeah",
+        "url": "https://fmhy.net",
+        "icon": "fas fa-music"
+    }
+]

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{ partial "head.html" . }}
+</head>
+<body>
+        <header class="bg-dark text-center text-light py-1">
+            {{ partial "header" . }}
+        </header>
+        <main class="google-sans-regular bg-bg text-light">
+        {{ block "main" . }}{{ end }}
+        </main>
+        <footer class="bg-dark text-light text-center">
+        {{ partial "footer.html" . }}
+        </footer>
+        {{ partial "bootstrapjs.html" . }}
+    </div>
+</body>
+</html>
