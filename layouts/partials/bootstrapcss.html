@@ -1,1 +1,2 @@
-<link rel="stylesheet" href="{{ `css/styles.css` | resources.Get | resources.Minify | relURL }}">
+{{ $bootstrap := resources.Get "css/styles.css" }}
+<link rel="stylesheet" type="text/css" href="{{ $bootstrap.RelPermalink }}">

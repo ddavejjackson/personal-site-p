@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Android",
+        "url": "android/",
+        "icon": "fab fa-android"
+    },
+    {
+        "name": "Java",
+        "url": "java/",
+        "icon": "fab fa-java"
+    },
+    {
+        "name": "Kotlin",
+        "url": "kotlin/",
+        "icon": "fas fa-code"
+    },
+    {
+        "name": "Python",
+        "url": "python/",
+        "icon": "fab fa-python"
+    },
+    {
+        "name": "Cyber",
+        "url": "cyber/",
+        "icon": "fas fa-hat-cowboy"
+    },
+    {
+        "name": "About Me",
+        "url": "about/",
+        "icon": "fas fa-user-secret"
+    }
+]

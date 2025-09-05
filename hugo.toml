@@ -1,6 +1,6 @@
-baseURL = "https://ddavejjackson.gitlab.io/custom-startpage/"
+baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'DdaveJjackson'
+title = 'Startpage'
 
 [Params]
     [Params.author]

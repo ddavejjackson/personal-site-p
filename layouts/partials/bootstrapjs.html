@@ -1,3 +1,2 @@
-{{ with .Resources.Get "css/bootstrap.min.css" }}
-    <script src="{{ .RelPermalink }}"></script>
-{{ end }}
+{{ $script := resources.Get "js/bootstrap.bundle.min.js" | resources.Fingerprint }}
+<script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>

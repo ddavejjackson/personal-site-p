@@ -2,4 +2,5 @@
     <h1 class=".audiowide-regular fs-1">{{ .Title }}</h1>
     <p class=".electrolize-regular">{{ dateFormat "Monday, 2 Jan, 2006" .Date }}</p>
     <p class=".electrolize-regular">{{ if .Params.author }}Author: {{ .Params.author }}{{ end }}</p>
+    {{ .Content }}
 {{ end }}

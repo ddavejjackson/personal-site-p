@@ -1,1 +1,2 @@
-<link rel="stylesheet" type="text/css" href="{{ $google := resources.Get "css/styles.css" | resources.Minify }}/{{ $google.Permalink }}">
+{{ $google := resources.Get "css/google-fonts.css" }}
+<link rel="stylesheet" type="text/css" href="{{ $google.RelPermalink }}">
